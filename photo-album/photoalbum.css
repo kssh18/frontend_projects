@@ -26,6 +26,24 @@ h1 {
   margin-bottom: 10px;
 
 } 
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: nowrap ;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.buttons button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor:pointer; 
+}
 
 .box {
   /* min-width: 100px; */
